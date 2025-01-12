@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 
 
-const Home = () => {
+export default function Home () {
   const router = useRouter()
 
   // Imeperative routing with useRouter
@@ -32,5 +32,3 @@ const Home = () => {
     </div>
   );
 }
-
-export default Home;
